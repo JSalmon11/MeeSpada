@@ -15,11 +15,11 @@ E:/Unity/Projexts/MeeSpada
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55932
+63783
 Successfully changed project path to: E:/Unity/Projexts/MeeSpada
 E:/Unity/Projexts/MeeSpada
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 33.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 36.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path E:/Unity/Versions/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'E:/Unity/Versions/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/Versions/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Unity/Versions/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/Versions/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/Unity/Versions/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001767 seconds.
+Registered in 0.001209 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 51.46 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 30.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.736 seconds
+- Completed reload, in  0.612 seconds
 Domain Reload Profiling:
-	ReloadAssembly (736ms)
-		BeginReloadAssembly (58ms)
+	ReloadAssembly (612ms)
+		BeginReloadAssembly (53ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (598ms)
-			LoadAssemblies (57ms)
+		EndReloadAssembly (489ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (174ms)
+			SetupTypeCache (160ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (245ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (197ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (40ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (52ms)
-				BeforeProcessingInitializeOnLoad (16ms)
-				ProcessInitializeOnLoadAttributes (132ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				RefreshPlugins (31ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003858 seconds.
+Registered in 0.003628 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.211 seconds
+- Completed reload, in  2.572 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1212ms)
-		BeginReloadAssembly (167ms)
+	ReloadAssembly (2573ms)
+		BeginReloadAssembly (178ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (982ms)
-			LoadAssemblies (90ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1708ms)
+			LoadAssemblies (151ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (389ms)
+			SetupTypeCache (867ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (326ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (461ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (254ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (352ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1505 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.6 MB.
-System memory in use after: 67.7 MB.
+System memory in use before: 87.4 MB.
+System memory in use after: 87.5 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1937.
-Total: 3.306100 ms (FindLiveObjects: 0.179500 ms CreateObjectMapping: 0.048100 ms MarkObjects: 2.980200 ms  DeleteObjects: 0.097100 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1958.
+Total: 3.365200 ms (FindLiveObjects: 0.166300 ms CreateObjectMapping: 0.057600 ms MarkObjects: 3.036000 ms  DeleteObjects: 0.103300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,177 +135,121 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/MainCharacter
-  artifactKey: Guid(7d837126410d3a147b6806285f73569c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter using Guid(7d837126410d3a147b6806285f73569c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a9cc1a803d0b7ecfb15b01ce5c9fd8') in 0.106165 seconds 
-  Import took 0.111764 seconds .
+  path: Assets/MainCharacter/textures/Ch24_1001_Normal.png
+  artifactKey: Guid(d8690de13c3da174a852ff2bce080465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacter/textures/Ch24_1001_Normal.png using Guid(d8690de13c3da174a852ff2bce080465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8d7f0d93d6eded41e3300d2e861815') in 0.497727 seconds 
+  Import took 0.529112 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000520 seconds.
-  path: Assets/MainCharacter/Great Sword@Attack Diagonal.fbx
-  artifactKey: Guid(07d3eda5b116a9e40896f9f8c8ff2263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Great Sword@Attack Diagonal.fbx using Guid(07d3eda5b116a9e40896f9f8c8ff2263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a044b090f3fed973fac066f25a9e34a3') in 0.837714 seconds 
-  Import took 0.843450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000499 seconds.
-  path: Assets/MainCharacter/Great Sword @Move Lateral.fbx
-  artifactKey: Guid(76a159eac33d85d47b4aa5132aa30f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Great Sword @Move Lateral.fbx using Guid(76a159eac33d85d47b4aa5132aa30f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455629d71e1801c62ee178693d2df55d') in 0.226447 seconds 
-  Import took 0.230759 seconds .
+  Time since last request: 0.000446 seconds.
+  path: Assets/MainCharacter/textures/Ch24_1001_Diffuse.png
+  artifactKey: Guid(b769f748cc84f8c468007d3d8b416f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacter/textures/Ch24_1001_Diffuse.png using Guid(b769f748cc84f8c468007d3d8b416f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36abe1090dca83454571290f068dfbbf') in 0.212024 seconds 
+  Import took 0.217034 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000318 seconds.
-  path: Assets/MainCharacter/Great Sword @Impact.fbx
-  artifactKey: Guid(fcf7e3aed9df6b14e878ec1a644937ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Great Sword @Impact.fbx using Guid(fcf7e3aed9df6b14e878ec1a644937ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd84c0dcd2dad8009459145e505cc0f') in 0.205775 seconds 
-  Import took 0.209383 seconds .
+  path: Assets/MainCharacter/textures/Ch24_1001_Specular.png
+  artifactKey: Guid(ca8e50916252dc743bbccdac0544d1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacter/textures/Ch24_1001_Specular.png using Guid(ca8e50916252dc743bbccdac0544d1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0616c85173bef2adcfadce9b37b96cba') in 0.306193 seconds 
+  Import took 0.321653 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/MainCharacter/Great Sword @Move Run.fbx
-  artifactKey: Guid(4f04c6fbb0db863499f558df1d772e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Great Sword @Move Run.fbx using Guid(4f04c6fbb0db863499f558df1d772e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b5812db51011a55e474b7db50af606') in 0.196906 seconds 
-  Import took 0.199767 seconds .
+  Time since last request: 0.000244 seconds.
+  path: Assets/MainCharacter/textures/Ch24_1001_Glossiness.png
+  artifactKey: Guid(14620d89c4310b54786870d290085cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacter/textures/Ch24_1001_Glossiness.png using Guid(14620d89c4310b54786870d290085cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3c9152d45d618da9c6f5f0264eb036') in 0.229804 seconds 
+  Import took 0.265557 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/MainCharacter/Great Sword @Character.fbx
-  artifactKey: Guid(da28337104a66d7499d72dc736a906bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Great Sword @Character.fbx using Guid(da28337104a66d7499d72dc736a906bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ba60d4a6e274ee1d85eb2177db0518') in 0.207799 seconds 
-  Import took 0.218366 seconds .
+  Time since last request: 149.647997 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Grass01_BigUVd261c09ae55ba1e3.terrainlayer
+  artifactKey: Guid(abd9154f20ae92745aec5087d219784a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Grass01_BigUVd261c09ae55ba1e3.terrainlayer using Guid(abd9154f20ae92745aec5087d219784a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9483cce1d0d9595bca8ff7a79dc7e0') in 0.284645 seconds 
+  Import took 0.328020 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/MainCharacter/Great Sword @Impact Death.fbx
-  artifactKey: Guid(3adc15d4eaf64974aa51fc26b79bfdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Great Sword @Impact Death.fbx using Guid(3adc15d4eaf64974aa51fc26b79bfdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6997d10c5b0d13f5b5a9816cdcbf6e5f') in 0.266701 seconds 
-  Import took 0.272650 seconds .
+  Time since last request: 4.931123 seconds.
+  path: Assets/GrassFlowers/Post-Processing For GrassFlowers.asset
+  artifactKey: Guid(150fbd13cfcddb34ebc82b228a769165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Post-Processing For GrassFlowers.asset using Guid(150fbd13cfcddb34ebc82b228a769165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e929973134c60d9c3a23d3e15f3b3626') in 0.192850 seconds 
+  Import took 0.229741 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/MainCharacter/Great Sword@Attack Vertical.fbx
-  artifactKey: Guid(b4dbea92a7899db4d90b6cddff00468b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Great Sword@Attack Vertical.fbx using Guid(b4dbea92a7899db4d90b6cddff00468b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db38cd6384a11f44b4524e3f281b595') in 0.214740 seconds 
-  Import took 0.223468 seconds .
+  Time since last request: 1.733139 seconds.
+  path: Assets/GrassFlowers/Demo
+  artifactKey: Guid(90a98d1ca0ff3f34b817aee6ee27e766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Demo using Guid(90a98d1ca0ff3f34b817aee6ee27e766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2788272244d534a24ae49a7088ddd0a6') in 0.151697 seconds 
+  Import took 0.202531 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000472 seconds.
-  path: Assets/MainCharacter/Great Sword @Idle.fbx
-  artifactKey: Guid(1c968bbca439b3d42bce333731f63f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Great Sword @Idle.fbx using Guid(1c968bbca439b3d42bce333731f63f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78fc678f9f5c1644d705eb870e574e7') in 0.191057 seconds 
-  Import took 0.198582 seconds .
+  Time since last request: 201.341427 seconds.
+  path: Assets/Terrain/Textures/Ground/Materials
+  artifactKey: Guid(6424a4c0fcf8a3545abe5907291fa25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Textures/Ground/Materials using Guid(6424a4c0fcf8a3545abe5907291fa25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06162489202b9e48cba571155b8701f') in 0.134318 seconds 
+  Import took 0.151985 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 83.082900 seconds.
-  path: Assets/MainCharacter/Animaciones
-  artifactKey: Guid(d884e0e619efd1e4f924b6de15c1959a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Animaciones using Guid(d884e0e619efd1e4f924b6de15c1959a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f964700a6dda7e1f36b78faf451a11') in 0.166804 seconds 
-  Import took 0.187610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.304568 seconds.
-  path: Assets/MainCharacter/Idle.anim
-  artifactKey: Guid(bc38f373502fd2a46b9455d73dce100a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Idle.anim using Guid(bc38f373502fd2a46b9455d73dce100a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ef7585636c936e47a1e488e1b18658') in 0.283676 seconds 
-  Import took 0.305304 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.548666 seconds.
-  path: Assets/MainCharacter/Move Lateral.anim
-  artifactKey: Guid(90ec13772eca777488ef4d24ec9b17c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Move Lateral.anim using Guid(90ec13772eca777488ef4d24ec9b17c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe51a956cbfc5cae7733a0c2f3adb848') in 0.455151 seconds 
-  Import took 0.502583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.181305 seconds.
-  path: Assets/MainCharacter/Move Run.anim
-  artifactKey: Guid(66e4a0413b91f2e48ba5856f4f40f384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Move Run.anim using Guid(66e4a0413b91f2e48ba5856f4f40f384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ba55974033fbf61c447bf8c1475dbf') in 0.124887 seconds 
-  Import took 0.145885 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.400147 seconds.
-  path: Assets/MainCharacter/Animaciones/Left Strafe.anim
-  artifactKey: Guid(03452a97b483ed2469c4fc32f8aa3a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Animaciones/Left Strafe.anim using Guid(03452a97b483ed2469c4fc32f8aa3a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d495af1f70d6c0e153e8da54278786') in 0.134222 seconds 
-  Import took 0.137423 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.638695 seconds.
-  path: Assets/MainCharacter/Animaciones/Run.anim
-  artifactKey: Guid(c6cdac266225e0741887854fcbd5dcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Animaciones/Run.anim using Guid(c6cdac266225e0741887854fcbd5dcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd328fd8e77c6efe2b7a51f393d9c5d') in 0.135838 seconds 
-  Import took 0.138554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.066664 seconds.
-  path: Assets/MainCharacter/Animaciones/Personaje1.controller
-  artifactKey: Guid(3b94b77c6756bbf4c89242a124d54195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Animaciones/Personaje1.controller using Guid(3b94b77c6756bbf4c89242a124d54195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d9a3cd0a0c24ba4b2ad7d1ccb6905c') in 0.206771 seconds 
-  Import took 0.243346 seconds .
+  Time since last request: 0.000317 seconds.
+  path: Assets/Terrain/Textures/Ground/Materials/Grass01_BigUV.mat
+  artifactKey: Guid(0f66c9e005e8f7642ab69ddab72e988d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Textures/Ground/Materials/Grass01_BigUV.mat using Guid(0f66c9e005e8f7642ab69ddab72e988d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722d89a920df489c9397001b8ae5566e') in 0.293725 seconds 
+  Import took 0.315951 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005268 seconds.
+Registered in 0.029243 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.091 seconds
+- Completed reload, in  1.607 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1092ms)
-		BeginReloadAssembly (127ms)
+	ReloadAssembly (1608ms)
+		BeginReloadAssembly (184ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (903ms)
-			LoadAssemblies (87ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1327ms)
+			LoadAssemblies (138ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (345ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (268ms)
+			SetupTypeCache (434ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (586ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (205ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (493ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1499 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.6 MB.
-System memory in use after: 84.7 MB.
+System memory in use before: 90.7 MB.
+System memory in use after: 90.8 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1983.
-Total: 2.636700 ms (FindLiveObjects: 0.150100 ms CreateObjectMapping: 0.056200 ms MarkObjects: 2.413000 ms  DeleteObjects: 0.016400 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2005.
+Total: 2.794400 ms (FindLiveObjects: 0.176000 ms CreateObjectMapping: 0.061700 ms MarkObjects: 2.538100 ms  DeleteObjects: 0.017600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -319,187 +263,51 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 256.467472 seconds.
-  path: Assets/MainCharacter/Animaciones/MainCharacter Controller.controller
-  artifactKey: Guid(3b94b77c6756bbf4c89242a124d54195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Animaciones/MainCharacter Controller.controller using Guid(3b94b77c6756bbf4c89242a124d54195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508049336acfe4dc088976d9568f41d5') in 0.125668 seconds 
-  Import took 0.128390 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1515.639326 seconds.
-  path: Assets/MainCharacter/Great Sword @Move Left.fbx
-  artifactKey: Guid(dee39a067a2313d41a0b3ff1a0c7ae1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Great Sword @Move Left.fbx using Guid(dee39a067a2313d41a0b3ff1a0c7ae1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01cdb54bdaf35e1452c2938192f3adaa') in 8.402280 seconds 
-  Import took 8.809973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/MainCharacter/Great Sword @Move Right.fbx
-  artifactKey: Guid(eb79eb97a3ad1a048a0888b54f7f7b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Great Sword @Move Right.fbx using Guid(eb79eb97a3ad1a048a0888b54f7f7b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c02bd826cca0376b0f8342867f9453') in 2.384042 seconds 
-  Import took 2.414733 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000413 seconds.
-  path: Assets/MainCharacter/Great Sword @Run Forward.fbx
-  artifactKey: Guid(f0a15ca17e7d4384ea696a0e57fa9d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Great Sword @Run Forward.fbx using Guid(f0a15ca17e7d4384ea696a0e57fa9d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4ad4f6c9db09eb7e26ef728e708a4a') in 1.479125 seconds 
-  Import took 1.511434 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000452 seconds.
-  path: Assets/MainCharacter/Great Sword @Run.fbx
-  artifactKey: Guid(826ee20d40f8a1349a457962b8400e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Great Sword @Run.fbx using Guid(826ee20d40f8a1349a457962b8400e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f319c0e646258198485020e47d06fb') in 1.290291 seconds 
-  Import took 1.297536 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 242.596154 seconds.
-  path: Assets/MainCharacter/Great Sword @Character.fbx
-  artifactKey: Guid(da28337104a66d7499d72dc736a906bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Great Sword @Character.fbx using Guid(da28337104a66d7499d72dc736a906bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1f4a963c6d236e89ca5d67532d199a') in 3.619326 seconds 
-  Import took 3.667057 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003007 seconds.
-  path: Assets/MainCharacter/Great Sword @Move Right.fbx
-  artifactKey: Guid(eb79eb97a3ad1a048a0888b54f7f7b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Great Sword @Move Right.fbx using Guid(eb79eb97a3ad1a048a0888b54f7f7b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f9157c4e725a58c35842d0da8a2e98') in 3.314157 seconds 
-  Import took 3.389961 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/MainCharacter/Great Sword @Impact Death.fbx
-  artifactKey: Guid(3adc15d4eaf64974aa51fc26b79bfdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Great Sword @Impact Death.fbx using Guid(3adc15d4eaf64974aa51fc26b79bfdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2463984179417618b1131c8f53f839') in 3.789321 seconds 
-  Import took 3.805208 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000477 seconds.
-  path: Assets/MainCharacter/Great Sword @Move Left.fbx
-  artifactKey: Guid(dee39a067a2313d41a0b3ff1a0c7ae1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Great Sword @Move Left.fbx using Guid(dee39a067a2313d41a0b3ff1a0c7ae1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529aa76651d3e750f4d89751938849a7') in 2.361513 seconds 
-  Import took 2.384503 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/MainCharacter/Great Sword @Run Forward.fbx
-  artifactKey: Guid(f0a15ca17e7d4384ea696a0e57fa9d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Great Sword @Run Forward.fbx using Guid(f0a15ca17e7d4384ea696a0e57fa9d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b274bc89be94ca23215f168be75723') in 2.953469 seconds 
-  Import took 2.968327 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/MainCharacter/Great Sword @Idle.fbx
-  artifactKey: Guid(1c968bbca439b3d42bce333731f63f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Great Sword @Idle.fbx using Guid(1c968bbca439b3d42bce333731f63f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb03043579541b69cb3e23272a0f45d8') in 2.572712 seconds 
-  Import took 2.577099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000458 seconds.
-  path: Assets/MainCharacter/Great Sword @Run.fbx
-  artifactKey: Guid(826ee20d40f8a1349a457962b8400e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Great Sword @Run.fbx using Guid(826ee20d40f8a1349a457962b8400e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442df310257cbeaf90671d905014e374') in 2.859358 seconds 
-  Import took 2.947909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 440.107723 seconds.
-  path: Assets/MainCharacter/Great Sword @Move Left.fbx
-  artifactKey: Guid(dee39a067a2313d41a0b3ff1a0c7ae1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Great Sword @Move Left.fbx using Guid(dee39a067a2313d41a0b3ff1a0c7ae1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7b9a5e94757e33e57d1c21763fb9dd') in 2.532185 seconds 
-  Import took 2.564274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/MainCharacter/Great Sword @Move Right.fbx
-  artifactKey: Guid(eb79eb97a3ad1a048a0888b54f7f7b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Great Sword @Move Right.fbx using Guid(eb79eb97a3ad1a048a0888b54f7f7b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00eb287d1c5bf127f17706bc86bbf848') in 4.239952 seconds 
-  Import took 4.242780 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/MainCharacter/Great Sword @Run Forward.fbx
-  artifactKey: Guid(f0a15ca17e7d4384ea696a0e57fa9d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Great Sword @Run Forward.fbx using Guid(f0a15ca17e7d4384ea696a0e57fa9d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa2797e1cc07756fbbfeac5bd8e79f5') in 2.813639 seconds 
-  Import took 2.872400 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/MainCharacter/Great Sword @Run.fbx
-  artifactKey: Guid(826ee20d40f8a1349a457962b8400e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Great Sword @Run.fbx using Guid(826ee20d40f8a1349a457962b8400e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b782e2552203c4f75cf866f1440fe7') in 2.787622 seconds 
-  Import took 2.838148 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 179.911936 seconds.
-  path: Assets/MainCharacter/Great Sword @Move Left.fbx
-  artifactKey: Guid(dee39a067a2313d41a0b3ff1a0c7ae1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Great Sword @Move Left.fbx using Guid(dee39a067a2313d41a0b3ff1a0c7ae1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bc4b80e75b31ec3d5320b8cc612eb3') in 1.554904 seconds 
-  Import took 1.562453 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.845455 seconds.
+Registered in 0.003448 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.278 seconds
+- Completed reload, in  0.971 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4284ms)
-		BeginReloadAssembly (440ms)
-			ExecutionOrderSort (1ms)
-			DisableScriptedObjects (45ms)
+	ReloadAssembly (971ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (248ms)
-		EndReloadAssembly (3771ms)
-			LoadAssemblies (2423ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (803ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (379ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (804ms)
+			SetupTypeCache (290ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (283ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (3ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (346ms)
-				ProcessInitializeOnLoadMethodAttributes (393ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1499 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.8 MB.
-System memory in use after: 85.0 MB.
+System memory in use before: 90.7 MB.
+System memory in use after: 90.8 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1986.
-Total: 4.232100 ms (FindLiveObjects: 0.200400 ms CreateObjectMapping: 0.151700 ms MarkObjects: 3.841100 ms  DeleteObjects: 0.037600 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2007.
+Total: 3.715700 ms (FindLiveObjects: 0.177000 ms CreateObjectMapping: 0.060600 ms MarkObjects: 3.454200 ms  DeleteObjects: 0.022600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -514,412 +322,450 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 534.285047 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Idle.fbx
-  artifactKey: Guid(66bf0a94709ff984a8e25a48d99f92dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Idle.fbx using Guid(66bf0a94709ff984a8e25a48d99f92dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b7fd875fcea336548bb12e136e104c') in 2.876424 seconds 
-  Import took 2.911590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.441769 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Run Forward.fbx
-  artifactKey: Guid(a396347a390e86648892c7444be33623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Run Forward.fbx using Guid(a396347a390e86648892c7444be33623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88e74f8724d6dafbd2df14bdddbfdc0') in 0.240747 seconds 
-  Import took 0.311180 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.623238 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Run.fbx
-  artifactKey: Guid(eed69c1bc06b6e44997af7822598939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Run.fbx using Guid(eed69c1bc06b6e44997af7822598939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0aeaa64f7c4c7156019f723b7e6bc59') in 0.276329 seconds 
-  Import took 0.284212 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.011494 seconds.
-  path: Assets/MainCharacter/Movements
-  artifactKey: Guid(d3d002966704a48468fb88bf59101a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements using Guid(d3d002966704a48468fb88bf59101a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1716c0b341af611e2fd1660a8c168fb8') in 0.112939 seconds 
-  Import took 0.136285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.997337 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Move Right.fbx
-  artifactKey: Guid(bbf6326a0312c884ca0c6eeabf172ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Move Right.fbx using Guid(bbf6326a0312c884ca0c6eeabf172ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0fb0f4f19c19a1a2682ced2a534b1a2') in 0.279625 seconds 
-  Import took 0.283509 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.529139 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Move Left.fbx
-  artifactKey: Guid(f5e3384e205137e40a8cdb70dc15deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Move Left.fbx using Guid(f5e3384e205137e40a8cdb70dc15deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c695a75b1517221e4408c4523e17fab1') in 0.387283 seconds 
-  Import took 0.414741 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.009685 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Character.fbx
-  artifactKey: Guid(da28337104a66d7499d72dc736a906bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Character.fbx using Guid(da28337104a66d7499d72dc736a906bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6745d12973373fcae897fbacc9b6e8aa') in 0.899052 seconds 
-  Import took 0.903347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Move Right.fbx
-  artifactKey: Guid(bbf6326a0312c884ca0c6eeabf172ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Move Right.fbx using Guid(bbf6326a0312c884ca0c6eeabf172ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73203b9a9f4c4b894d00293e196ae3f9') in 0.350548 seconds 
-  Import took 0.375290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Idle.fbx
-  artifactKey: Guid(66bf0a94709ff984a8e25a48d99f92dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Idle.fbx using Guid(66bf0a94709ff984a8e25a48d99f92dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa249eb6fda7210dc10ab4a7fba3c31') in 0.275056 seconds 
-  Import took 0.288504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Move Left.fbx
-  artifactKey: Guid(f5e3384e205137e40a8cdb70dc15deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Move Left.fbx using Guid(f5e3384e205137e40a8cdb70dc15deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17006b56724dd869e3171227726a3b7') in 0.308332 seconds 
-  Import took 0.311268 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Run Forward.fbx
-  artifactKey: Guid(a396347a390e86648892c7444be33623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Run Forward.fbx using Guid(a396347a390e86648892c7444be33623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678a80a97c7f166d62fb12c5144499b0') in 0.252590 seconds 
-  Import took 0.255456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Run.fbx
-  artifactKey: Guid(eed69c1bc06b6e44997af7822598939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Run.fbx using Guid(eed69c1bc06b6e44997af7822598939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5834557f72010060946c23ea3b6f0365') in 0.263113 seconds 
-  Import took 0.293818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.011740 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Idle.fbx
-  artifactKey: Guid(66bf0a94709ff984a8e25a48d99f92dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Idle.fbx using Guid(66bf0a94709ff984a8e25a48d99f92dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2b885c30c307e2126159339eb484a6') in 0.269098 seconds 
-  Import took 0.276465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000459 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Move Right.fbx
-  artifactKey: Guid(bbf6326a0312c884ca0c6eeabf172ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Move Right.fbx using Guid(bbf6326a0312c884ca0c6eeabf172ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd46e985720a398709d7c326c68d1d7') in 0.345334 seconds 
-  Import took 0.368261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Run Forward.fbx
-  artifactKey: Guid(a396347a390e86648892c7444be33623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Run Forward.fbx using Guid(a396347a390e86648892c7444be33623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212594a2ec9f07997511ee8f8def193d') in 0.256853 seconds 
-  Import took 0.296196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Move Left.fbx
-  artifactKey: Guid(f5e3384e205137e40a8cdb70dc15deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Move Left.fbx using Guid(f5e3384e205137e40a8cdb70dc15deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d1279ba0ad03a2efacd966ecbb6626') in 1.181490 seconds 
-  Import took 1.230005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000483 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Run.fbx
-  artifactKey: Guid(eed69c1bc06b6e44997af7822598939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Run.fbx using Guid(eed69c1bc06b6e44997af7822598939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccf9c380e62b75d5f16abfd846c9c40') in 0.593911 seconds 
-  Import took 0.599597 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 190.699836 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Idle.fbx
-  artifactKey: Guid(66bf0a94709ff984a8e25a48d99f92dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Idle.fbx using Guid(66bf0a94709ff984a8e25a48d99f92dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea783aff48e05f9591dde2ccabcb5a18') in 0.400307 seconds 
-  Import took 0.418290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000500 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Move Right.fbx
-  artifactKey: Guid(bbf6326a0312c884ca0c6eeabf172ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Move Right.fbx using Guid(bbf6326a0312c884ca0c6eeabf172ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e2fb8df663dc5e7f5301a0839e272b') in 0.270757 seconds 
-  Import took 0.291084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Run Forward.fbx
-  artifactKey: Guid(a396347a390e86648892c7444be33623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Run Forward.fbx using Guid(a396347a390e86648892c7444be33623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4afbda6790b86a9159dc3a2b9e961178') in 0.313315 seconds 
-  Import took 0.316197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Move Left.fbx
-  artifactKey: Guid(f5e3384e205137e40a8cdb70dc15deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Move Left.fbx using Guid(f5e3384e205137e40a8cdb70dc15deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced907362f64c4cc64c0931a4a43999a') in 0.707500 seconds 
-  Import took 0.710881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Run.fbx
-  artifactKey: Guid(eed69c1bc06b6e44997af7822598939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Run.fbx using Guid(eed69c1bc06b6e44997af7822598939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '024f4fa69780ffd4c75cc1af89def5d1') in 0.285268 seconds 
-  Import took 0.288206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.922094 seconds.
-  path: Assets/MainCharacter/Movements/Run.anim
-  artifactKey: Guid(0671e85d9f7734f428ddf20ee333a9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Run.anim using Guid(0671e85d9f7734f428ddf20ee333a9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c8a3994429c3bc3a9ee8c20c0be41a') in 0.164386 seconds 
-  Import took 0.167845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 68.823670 seconds.
-  path: Assets/MainCharacter/Controller/Run Forward.anim
-  artifactKey: Guid(4e9eda1c505b54a4abe23817d8a60827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Controller/Run Forward.anim using Guid(4e9eda1c505b54a4abe23817d8a60827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68d3f3ff1f14bd5207ec745e8b821b0') in 0.163418 seconds 
-  Import took 0.202170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.704552 seconds.
-  path: Assets/MainCharacter/Controller/Move Right.anim
-  artifactKey: Guid(5ff99225c051f334784ad922676e9178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Controller/Move Right.anim using Guid(5ff99225c051f334784ad922676e9178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07dc7b5ab52f858faf6098b10a76988') in 0.112319 seconds 
-  Import took 0.125698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.618692 seconds.
-  path: Assets/MainCharacter/Controller/Move Left.anim
-  artifactKey: Guid(4d71d05fb261cbf46a9678f37725b9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Controller/Move Left.anim using Guid(4d71d05fb261cbf46a9678f37725b9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a9da70048944fc5b37894fdbc4f380') in 0.148183 seconds 
-  Import took 0.172725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.066917 seconds.
+  Time since last request: 122.937215 seconds.
   path: Assets/MainCharacter/Controller/Idle.anim
-  artifactKey: Guid(aaf255409429a8a4aa1994d619966403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Controller/Idle.anim using Guid(aaf255409429a8a4aa1994d619966403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2887eccda9b49c6cbec96d79cb395f10') in 0.117248 seconds 
-  Import took 0.134549 seconds .
+  artifactKey: Guid(5e506283b3233984594f66092b3efc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacter/Controller/Idle.anim using Guid(5e506283b3233984594f66092b3efc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53dd23a7fea5628e9d193ab57328a5fa') in 0.354541 seconds 
+  Import took 0.403938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.798739 seconds.
+  path: Assets/MainCharacter/Controller/Falling Idle.anim
+  artifactKey: Guid(b5545f46f7548084d877339f292e7f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacter/Controller/Falling Idle.anim using Guid(b5545f46f7548084d877339f292e7f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1723ce9ae7c050126a871e422cf55d2') in 0.162569 seconds 
+  Import took 0.218413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 254.902714 seconds.
+  path: Assets/MainCharacter/Movements/Great Sword @Fall.fbx
+  artifactKey: Guid(dacc4fea058e68f4db1f213fe36b3ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacter/Movements/Great Sword @Fall.fbx using Guid(dacc4fea058e68f4db1f213fe36b3ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc60b592a4be803c809e52f330f40f00') in 2.365689 seconds 
+  Import took 2.571267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001210 seconds.
+  path: Assets/MainCharacter/Movements/Great Sword @Jump.fbx
+  artifactKey: Guid(ff9a86551c9c21d4ebf7a225455f2aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacter/Movements/Great Sword @Jump.fbx using Guid(ff9a86551c9c21d4ebf7a225455f2aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a269e7315ffbfa519b14c57216656b35') in 0.425837 seconds 
+  Import took 0.451169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.837552 seconds.
+  path: Assets/MainCharacter/Movements/Great Sword @Fall.fbx
+  artifactKey: Guid(dacc4fea058e68f4db1f213fe36b3ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacter/Movements/Great Sword @Fall.fbx using Guid(dacc4fea058e68f4db1f213fe36b3ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d21eba3341571c5676c392fc8c0c718') in 0.364760 seconds 
+  Import took 0.399091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000696 seconds.
+  path: Assets/MainCharacter/Movements/Great Sword @Jump.fbx
+  artifactKey: Guid(ff9a86551c9c21d4ebf7a225455f2aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacter/Movements/Great Sword @Jump.fbx using Guid(ff9a86551c9c21d4ebf7a225455f2aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a401dc38a839093bd5f5861466d4d9') in 0.316131 seconds 
+  Import took 0.344172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.088962 seconds.
+  path: Assets/MainCharacter/Movements/Jump.anim
+  artifactKey: Guid(ac27093febceb71429df82b8de953674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacter/Movements/Jump.anim using Guid(ac27093febceb71429df82b8de953674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426ee59082c9ff7765009e250accf18f') in 0.282156 seconds 
+  Import took 0.327888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.604181 seconds.
+  path: Assets/MainCharacter/Movements/Fall.anim
+  artifactKey: Guid(d39aae4b8aa10824cb049eb4bda91332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacter/Movements/Fall.anim using Guid(d39aae4b8aa10824cb049eb4bda91332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd008f5389955ec99bc4087666ddd6e6e') in 0.140597 seconds 
+  Import took 0.166471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.862297 seconds.
+  path: Assets/MainCharacter/Controller/MainCharacter Controller.controller
+  artifactKey: Guid(3b94b77c6756bbf4c89242a124d54195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacter/Controller/MainCharacter Controller.controller using Guid(3b94b77c6756bbf4c89242a124d54195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f997f5f4370b1922d3f565ea25d9f037') in 0.400890 seconds 
+  Import took 0.427145 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.040817 seconds.
+Registered in 0.019216 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.207 seconds
+- Completed reload, in  1.191 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3208ms)
-		BeginReloadAssembly (490ms)
+	ReloadAssembly (1191ms)
+		BeginReloadAssembly (173ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (31ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (147ms)
-		EndReloadAssembly (2513ms)
-			LoadAssemblies (407ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (924ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (114ms)
-			SetupLoadedEditorAssemblies (914ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (138ms)
-				ProcessInitializeOnLoadAttributes (724ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (3ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1499 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.1 MB.
-System memory in use after: 85.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1989.
-Total: 12.016200 ms (FindLiveObjects: 1.326500 ms CreateObjectMapping: 0.266800 ms MarkObjects: 10.343800 ms  DeleteObjects: 0.070400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 295.077760 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Run.fbx
-  artifactKey: Guid(eed69c1bc06b6e44997af7822598939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Run.fbx using Guid(eed69c1bc06b6e44997af7822598939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654f50ef76df4d0d62a690feb42e7287') in 1.182616 seconds 
-  Import took 1.204985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.345777 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Move Left.fbx
-  artifactKey: Guid(f5e3384e205137e40a8cdb70dc15deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Move Left.fbx using Guid(f5e3384e205137e40a8cdb70dc15deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6af34cb87d61a23919ac8a29fd046d3') in 0.305342 seconds 
-  Import took 0.312359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000470 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Move Right.fbx
-  artifactKey: Guid(bbf6326a0312c884ca0c6eeabf172ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Move Right.fbx using Guid(bbf6326a0312c884ca0c6eeabf172ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3263a0d6436bedb04f358ac11b3ca4cd') in 0.271251 seconds 
-  Import took 0.297450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Run Forward.fbx
-  artifactKey: Guid(a396347a390e86648892c7444be33623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Run Forward.fbx using Guid(a396347a390e86648892c7444be33623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231f527752f2d2ac0d66f49b6aa2e1c0') in 0.272336 seconds 
-  Import took 0.295845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Run.fbx
-  artifactKey: Guid(eed69c1bc06b6e44997af7822598939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Run.fbx using Guid(eed69c1bc06b6e44997af7822598939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82d57de38526650bbdf0e2e4cb0d65a') in 0.276069 seconds 
-  Import took 0.288727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.258240 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Idle.fbx
-  artifactKey: Guid(66bf0a94709ff984a8e25a48d99f92dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Idle.fbx using Guid(66bf0a94709ff984a8e25a48d99f92dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cedf8db58be01bb92e5ce1ce399b9a8') in 0.452520 seconds 
-  Import took 0.456676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.895494 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Move Left.fbx
-  artifactKey: Guid(f5e3384e205137e40a8cdb70dc15deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Move Left.fbx using Guid(f5e3384e205137e40a8cdb70dc15deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa68ba00daa600641ba940bce5ef98c1') in 0.208022 seconds 
-  Import took 0.220880 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.577262 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Move Right.fbx
-  artifactKey: Guid(bbf6326a0312c884ca0c6eeabf172ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Move Right.fbx using Guid(bbf6326a0312c884ca0c6eeabf172ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050af1b1d2cc2fb6630f4c4caf777fca') in 0.190767 seconds 
-  Import took 0.213144 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.095866 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Run Forward.fbx
-  artifactKey: Guid(a396347a390e86648892c7444be33623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Run Forward.fbx using Guid(a396347a390e86648892c7444be33623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba73c6fa2edff5b4f69ca9dec7f238c5') in 0.144490 seconds 
-  Import took 0.164452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.119037 seconds.
-  path: Assets/MainCharacter/Movements/Great Sword @Run.fbx
-  artifactKey: Guid(eed69c1bc06b6e44997af7822598939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Great Sword @Run.fbx using Guid(eed69c1bc06b6e44997af7822598939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2606625432516e24e7a2ba6276af51d') in 0.296661 seconds 
-  Import took 0.304108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.146511 seconds.
-  path: Assets/MainCharacter/Movements/Run.anim
-  artifactKey: Guid(5c5d26f742ea5d24986027878bade03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Movements/Run.anim using Guid(5c5d26f742ea5d24986027878bade03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e023e7746e055d4071c6624fb9365e') in 0.113864 seconds 
-  Import took 0.116577 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.058880 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.046 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2047ms)
-		BeginReloadAssembly (270ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (81ms)
-		EndReloadAssembly (1658ms)
-			LoadAssemblies (258ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (937ms)
+			LoadAssemblies (114ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (587ms)
+			SetupTypeCache (337ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (89ms)
-			SetupLoadedEditorAssemblies (532ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (328ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (133ms)
-				ProcessInitializeOnLoadAttributes (365ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (255ms)
 				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1499 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.5 MB.
+System memory in use after: 104.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2014.
+Total: 2.686000 ms (FindLiveObjects: 0.153200 ms CreateObjectMapping: 0.051700 ms MarkObjects: 2.464500 ms  DeleteObjects: 0.015400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 167.399227 seconds.
+  path: Assets/MainCharacter/Movements/Great Sword @Jump.fbx
+  artifactKey: Guid(ff9a86551c9c21d4ebf7a225455f2aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacter/Movements/Great Sword @Jump.fbx using Guid(ff9a86551c9c21d4ebf7a225455f2aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4dea0142ceee7d7caf115c41352f42b') in 0.711787 seconds 
+  Import took 0.766135 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007722 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.038 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1038ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (843ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (331ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (279ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1499 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.5 MB.
+System memory in use after: 104.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2017.
+Total: 2.954400 ms (FindLiveObjects: 0.151700 ms CreateObjectMapping: 0.052400 ms MarkObjects: 2.731500 ms  DeleteObjects: 0.017700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 89.561810 seconds.
+  path: Assets/MainCharacter/Sword
+  artifactKey: Guid(07b5c94bf722b5143a334d82b1139037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacter/Sword using Guid(07b5c94bf722b5143a334d82b1139037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56779bc0d0b7aa6dff857542875c4a9b') in 0.117947 seconds 
+  Import took 0.132586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.338852 seconds.
+  path: Assets/MainCharacter/Sword/source
+  artifactKey: Guid(903466c624850624397000846fbc5338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacter/Sword/source using Guid(903466c624850624397000846fbc5338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd94622d80930ac2923a208c234f3f8b') in 0.136553 seconds 
+  Import took 0.171886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.015738 seconds.
+  path: Assets/MainCharacter/Sword/source/aot.rar
+  artifactKey: Guid(2f82741c1a5126148b06f0913e67a911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacter/Sword/source/aot.rar using Guid(2f82741c1a5126148b06f0913e67a911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5086e57d3b93f60d0cecf6fb7efe2be0') in 0.155915 seconds 
+  Import took 0.189637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.548378 seconds.
+  path: Assets/MainCharacter/Sword/source/2790.jpg
+  artifactKey: Guid(77bce43dee84ae240b223ac78f049c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacter/Sword/source/2790.jpg using Guid(77bce43dee84ae240b223ac78f049c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93f24d89afc39764a4823ca3b409039') in 0.398967 seconds 
+  Import took 0.482629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/MainCharacter/Sword/source/aotsword7.obj
+  artifactKey: Guid(6a2d1542bfa8c7942aea388ab96e61ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacter/Sword/source/aotsword7.obj using Guid(6a2d1542bfa8c7942aea388ab96e61ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd507d19df5bb4ec2ee00d645cb2d363c') in 0.372044 seconds 
+  Import took 0.375413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/MainCharacter/Sword/source/iron_texture80.jpg
+  artifactKey: Guid(6f14d6c854d36b443a4852992b98565e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacter/Sword/source/iron_texture80.jpg using Guid(6f14d6c854d36b443a4852992b98565e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617f347123f45bb0c8c133ba0634bb28') in 0.274827 seconds 
+  Import took 0.286817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/MainCharacter/Sword/source/d5x25l-652313d1-9b0f-44b9-9864-15e09c2752ef.jpg
+  artifactKey: Guid(f9bcc9c96cc9396499d1066c7e92240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacter/Sword/source/d5x25l-652313d1-9b0f-44b9-9864-15e09c2752ef.jpg using Guid(f9bcc9c96cc9396499d1066c7e92240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0040044f26132e3131bbd04ed7a941b4') in 0.175242 seconds 
+  Import took 0.222375 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005227 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.978 seconds
+Domain Reload Profiling:
+	ReloadAssembly (978ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (805ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (286ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1499 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.5 MB.
+System memory in use after: 105.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2021.
+Total: 2.756900 ms (FindLiveObjects: 0.152100 ms CreateObjectMapping: 0.043300 ms MarkObjects: 2.541400 ms  DeleteObjects: 0.018400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 332.797407 seconds.
+  path: Assets/MainCharacter/Sword/source/aotsword7.obj
+  artifactKey: Guid(6a2d1542bfa8c7942aea388ab96e61ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacter/Sword/source/aotsword7.obj using Guid(6a2d1542bfa8c7942aea388ab96e61ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234e998d092fa89a05ee527a09a889c0') in 0.274736 seconds 
+  Import took 0.301073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.571199 seconds.
+  path: Assets/MainCharacter/Sword/textures/2790.jpeg
+  artifactKey: Guid(06f1199cc12eb234baecc89d019244ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacter/Sword/textures/2790.jpeg using Guid(06f1199cc12eb234baecc89d019244ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e7b64cbbab5485e14a103830a0a6e1') in 0.201266 seconds 
+  Import took 0.206861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/MainCharacter/Sword/textures/iron_texture80.jpeg
+  artifactKey: Guid(b15590a98c4d6424dbbf2a1a60d335db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacter/Sword/textures/iron_texture80.jpeg using Guid(b15590a98c4d6424dbbf2a1a60d335db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15567f1bde4b14e89ff135c01e89227e') in 0.162826 seconds 
+  Import took 0.183759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/MainCharacter/Sword/textures/d5x25l-652313d1-9b0f-44b9-9864-15e09c2752ef.jpeg
+  artifactKey: Guid(f8c82129d9ca2824eb63e77b2e700b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacter/Sword/textures/d5x25l-652313d1-9b0f-44b9-9864-15e09c2752ef.jpeg using Guid(f8c82129d9ca2824eb63e77b2e700b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f8d9ba5a6846169a4998362d549859') in 0.166668 seconds 
+  Import took 0.194647 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003568 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.027 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1028ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (850ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (308ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (286ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1499 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.5 MB.
+System memory in use after: 105.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2024.
+Total: 2.999200 ms (FindLiveObjects: 0.142400 ms CreateObjectMapping: 0.060200 ms MarkObjects: 2.779200 ms  DeleteObjects: 0.016300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.041535 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.070 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1071ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (881ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (297ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (340ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (264ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1499 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.2 MB.
-System memory in use after: 85.3 MB.
+System memory in use before: 105.5 MB.
+System memory in use after: 105.7 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1992.
-Total: 9.021400 ms (FindLiveObjects: 0.534500 ms CreateObjectMapping: 0.256300 ms MarkObjects: 8.202500 ms  DeleteObjects: 0.025500 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2026.
+Total: 7.055600 ms (FindLiveObjects: 0.258100 ms CreateObjectMapping: 0.087100 ms MarkObjects: 6.683700 ms  DeleteObjects: 0.025000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -933,35 +779,119 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 469.412019 seconds.
-  path: Assets/MainCharacter/Animations
-  artifactKey: Guid(8af02fae2ac484e4bbf342ce71802044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Animations using Guid(8af02fae2ac484e4bbf342ce71802044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6820a06a4de286d15edd1452cdfe4e9c') in 0.196171 seconds 
-  Import took 0.227847 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.030561 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.424 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1425ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1161ms)
+			LoadAssemblies (145ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (441ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (381ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (297ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1499 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.6 MB.
+System memory in use after: 105.7 MB.
 
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2028.
+Total: 8.904100 ms (FindLiveObjects: 0.172200 ms CreateObjectMapping: 0.047300 ms MarkObjects: 8.648100 ms  DeleteObjects: 0.034500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 12.453455 seconds.
-  path: Assets/MainCharacter/Animations/Great Sword @Impact Death.fbx
-  artifactKey: Guid(319a529600561694a90e452f9ead861a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Animations/Great Sword @Impact Death.fbx using Guid(319a529600561694a90e452f9ead861a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094b8383ffb519a4ba53523f19bd22b6') in 0.644662 seconds 
-  Import took 0.667837 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003609 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.195 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1196ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (989ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (383ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (318ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1499 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.6 MB.
+System memory in use after: 105.7 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 41.419177 seconds.
-  path: Assets/MainCharacter/Materials/Ch24_1001_Diffuse.mat
-  artifactKey: Guid(1df4c2c169921fb44a8397ed873d145b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Materials/Ch24_1001_Diffuse.mat using Guid(1df4c2c169921fb44a8397ed873d145b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442eca283e3a34c59ac7611910f3a403') in 0.359393 seconds 
-  Import took 0.363929 seconds .
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2030.
+Total: 3.234800 ms (FindLiveObjects: 0.185900 ms CreateObjectMapping: 0.052200 ms MarkObjects: 2.977000 ms  DeleteObjects: 0.018400 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000679 seconds.
-  path: Assets/MainCharacter/Materials
-  artifactKey: Guid(26f17af50d15a924795684a9de0e48d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainCharacter/Materials using Guid(26f17af50d15a924795684a9de0e48d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73f02724aafb447374d9ba2c331c58a') in 0.162742 seconds 
-  Import took 0.165756 seconds .
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
