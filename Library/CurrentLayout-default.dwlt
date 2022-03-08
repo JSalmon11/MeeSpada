@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Hierarchy
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 939
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 678, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 118
+  controlID: 40
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 119
+  controlID: 41
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 120
+  controlID: 42
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -399,18 +399,18 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: fef8ffff02f9ffff06f9ffff0af9ffff0ef9ffff12f9ffff18f9ffff84f9ffff88f9ffff8cf9ffffb8f9ffffcaf9ffffd4f9ffffd6f9ffff3efbffff503e0000
+      m_ExpandedIDs: 28f9ffff6af9ffff6ef9ffff72f9ffff76f9ffff7af9ffff7ef9ffff84f9fffff0f9fffff4f9fffff8f9ffff24faffff3cfaffff54fbffff483d0000603d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: MainCharacter
-        m_OriginalName: MainCharacter
+        m_Name: Sword
+        m_OriginalName: Sword
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 15974
+        m_UserData: -1476
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -459,9 +459,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 165.54836, y: 4.6207614, z: 24.98574}
+    m_Target: {x: 165.75679, y: 4.4153, z: 22.666328}
     speed: 2
-    m_Value: {x: 165.54836, y: 4.6207614, z: 24.98574}
+    m_Value: {x: 165.75679, y: 4.4153, z: 22.666328}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -508,13 +508,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.08495819, y: -0.3750799, z: 0.03447238, w: 0.9225162}
+    m_Target: {x: -0.07847565, y: 0.53767294, z: -0.05024414, w: -0.83809996}
     speed: 2
-    m_Value: {x: 0.08495278, y: -0.37505603, z: 0.034470186, w: 0.9224575}
+    m_Value: {x: -0.07846832, y: 0.53762275, z: -0.05023945, w: -0.83802176}
   m_Size:
-    m_Target: 4.010897
+    m_Target: 3.9339743
     speed: 2
-    m_Value: 4.010897
+    m_Value: 3.9339743
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -657,22 +657,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Characters/MainCharacter/Sword
+    - Assets/Characters
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Characters/MainCharacter/Sword
+  - Assets/Characters
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\Unity\Projexts\MeeSpada
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: fa3d0000
-    m_LastClickedID: 15866
-    m_ExpandedIDs: 00000000f63d0000f83d0000fa3d0000fc3d0000003e0000043e0000063e0000083e00003c40000000ca9a3b
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: 6c400000
+    m_LastClickedID: 16492
+    m_ExpandedIDs: 000000004440000046400000484000004a4000006c40000072400000de4000001641000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -700,7 +700,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f63d0000f83d0000fa3d0000fc3d0000
+    m_ExpandedIDs: 000000004440000046400000484000004a400000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -727,8 +727,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000ee3e0000704200002240000000000000523d0000526000005e600000ae6000001c600000be9b0000
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000ee3e0000704200002240000000000000523d0000526000005e600000ae6000001c600000be9b000052410000963d00007a42000090430000064c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -777,9 +777,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 703
-    width: 1003
-    height: 250
+    y: 730
+    width: 1505
+    height: 261
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &18
 MonoBehaviour:

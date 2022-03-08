@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class SwordCollisions : MonoBehaviour
 {
+    private AudioSource sonido;
     public AudioClip clashSword;
     public AudioClip killSword;
     public float vol = 0.5f;
-    public Transform pos;
 
     // Start is called before the first frame update
     void Start()
     {
-        pos = transform;
+         sonido = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -20,11 +20,13 @@ public class SwordCollisions : MonoBehaviour
     {
         
     }
-
-    void OnCollisionEnter(Collision c){
+    
+    private void OnCollisionEnter(Collision c){
         GameObject ob = GameObject.Find("Sword");
         if(c.collider.name.Equals(ob.name)){
-            AudioSource.PlayClipAtPoint(clashSword, pos.position, vol);
+            sonido.PlayOneShot(clashSword, vol);
+        }else{
+            sonido.PlayOneShot(killSword, vol);
         }
     }
 }
