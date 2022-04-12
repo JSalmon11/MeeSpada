@@ -30,6 +30,24 @@ public class SwordCollisions : MonoBehaviour
             new WaitForSeconds(0.8f);
         }else{
             sonido.PlayOneShot(killSword, vol);
+            if(c.collider.name.Equals("MainCharacter")){
+                killing();
+            }
+            new WaitForSeconds(0.8f);
         }
     }
+
+        public void killing(){
+        if(GameObject.Find("Live3")){
+            Destroy(GameObject.Find("Live3"));
+        }else if(GameObject.Find("Live2")){
+            Destroy(GameObject.Find("Live2"));
+        }else if(GameObject.Find("Live1")){
+            Destroy(GameObject.Find("Live1"));
+            GameObject ob1 = GameObject.Find("MainCharacter");
+            Animator anim = ob1.GetComponent<Animator>();
+            anim.SetBool("Hit",true);
+        }
+    }
+
 }

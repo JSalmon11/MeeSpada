@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Character : MonoBehaviour
 {
@@ -48,7 +49,7 @@ public class Character : MonoBehaviour
          	 Falling();
          }
     }
-    public void Falling()
+    private void Falling()
     {
     	anim.SetBool("Floor", false);
     	anim.SetBool("Jump", false);
