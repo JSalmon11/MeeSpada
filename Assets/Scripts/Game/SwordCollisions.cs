@@ -18,13 +18,16 @@ public class SwordCollisions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     
     private void OnCollisionEnter(Collision c){
         GameObject ob = GameObject.Find("Sword");
         if(c.collider.name.Equals(ob.name)){
-            sonido.PlayOneShot(clashSword, vol);
+            if(clashSword != null){
+                sonido.PlayOneShot(clashSword, vol);
+            }
+            new WaitForSeconds(0.8f);
         }else{
             sonido.PlayOneShot(killSword, vol);
         }
