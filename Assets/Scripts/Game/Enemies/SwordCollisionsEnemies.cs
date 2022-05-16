@@ -45,7 +45,7 @@ public class SwordCollisionsEnemies : MonoBehaviour
             Destroy(GameObject.Find("Live3"));
             GameObject ob1 = GameObject.Find("MainCharacter");
             Animator anim = ob1.GetComponent<Animator>();
-            anim.SetBool("Hit",true);
+            anim.SetBool("Death",true);
         }
     }
 
