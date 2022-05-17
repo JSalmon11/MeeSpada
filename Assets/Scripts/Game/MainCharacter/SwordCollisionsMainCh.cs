@@ -30,7 +30,7 @@ public class SwordCollisionsMainCh : MonoBehaviour
             //new WaitForSeconds(0.9f);
         }else{
             sonido.PlayOneShot(killSword, vol);
-            if(c.collider.gameObject.tag == "Enemie"){
+            if(c.collider.gameObject.tag == "Enemy"){
                 killingEnemie(c.collider.gameObject);
             }
             //new WaitForSeconds(0.9f);

@@ -11,7 +11,6 @@ public class AutoMove : MonoBehaviour
 
     void Awake(){
         navMeshAgent = GetComponent<NavMeshAgent>();
-        
     }
 
     void Start()
@@ -20,13 +19,20 @@ public class AutoMove : MonoBehaviour
         enemies = GameObject.FindGameObjectsWithTag("Enemy");
     }
 
+    private bool TodosMuertos = false;
+    void Update()
+    {
+       if(enemies.Length == 0){
+            TodosMuertos = true;
+            navMeshAgent.SetDestination(target.position);
+       }
+    }
     void OnTriggerEnter(Collider other) {
         if (other.tag == "Rute") {
-            if(enemies.Length == 0){
+            if(TodosMuertos){
                 target = other.gameObject.GetComponent<WayPoint>().nextPoint;
                 navMeshAgent.SetDestination(target.position);
             }else{
-                Debug.Log("porke paras ?");
                 navMeshAgent.Stop();
             }
         }
