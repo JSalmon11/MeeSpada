@@ -9,35 +9,45 @@ public class AutoMove : MonoBehaviour
     private NavMeshAgent navMeshAgent;
     private GameObject[] enemies;
 
+    private string nameEnemies ;
     void Awake(){
         navMeshAgent = GetComponent<NavMeshAgent>();
     }
 
-    void Start()
-    {
+    void Start(){
         navMeshAgent.SetDestination(target.position);
-        enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        nameEnemies = "Enemy";
     }
 
-    private bool TodosMuertos = false;
-    void Update()
-    {
-       if(enemies.Length == 0){
-            TodosMuertos = true;
+    void Update(){
+        if(enemies != null){
+            if(enemies.Length == 0){
+            navMeshAgent.isStopped = false;
             navMeshAgent.SetDestination(target.position);
-       }
+            //"Gupo eliminado avanzo al suiguiente punto"
+            }else{
+                enemies = GameObject.FindGameObjectsWithTag(nameEnemies);
+            }
+        }
     }
+     
     void OnTriggerEnter(Collider other) {
         if (other.tag == "Rute") {
-            if(TodosMuertos){
                 target = other.gameObject.GetComponent<WayPoint>().nextPoint;
-                navMeshAgent.SetDestination(target.position);
-            }else{
-                navMeshAgent.Stop();
+                enemies = other.gameObject.GetComponent<WayPoint>().enemies;	
+                nameEnemies = other.gameObject.GetComponent<WayPoint>().enemieName;
+                //si recibe por la variable nameEnemies == "EnemyFin" pues llabmas al fianl y listo
+                if(nameEnemies.Equals("EnemyFin")) {
+                    navMeshAgent.isStopped = true;// es irrelevante esta linea pero no esta demas.
+                    //llamar aqui a la pantall fin.
+                    Debug.Log("Fin llego al final ");
+                }
+                navMeshAgent.isStopped = true;
+
             }
         }
 
-    }
-
 }
+
+
 
