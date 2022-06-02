@@ -42,10 +42,10 @@ public class SwordCollisionsEnemies : MonoBehaviour
         }else if(GameObject.Find("Live2")){
             Destroy(GameObject.Find("Live2"));
         }else if(GameObject.Find("Live3")){
-            Destroy(GameObject.Find("Live3"));
             GameObject ob1 = GameObject.Find("MainCharacter");
             Animator anim = ob1.GetComponent<Animator>();
             anim.SetBool("Death",true);
+            Destroy(GameObject.Find("Live3"));
         }
     }
 

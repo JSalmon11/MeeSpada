@@ -6,11 +6,15 @@ public class WayPoint : MonoBehaviour
 {
     public Transform nextPoint;
     public GameObject[] enemies;
-    public string enemieName;
+    public string enemyName;
     void Start()
-    {   
-        string name = this.gameObject.name;
-        enemieName = "Enemy"+ name;
-        enemies = GameObject.FindGameObjectsWithTag(enemieName);
+    {
+        try
+        {
+            string name = this.gameObject.name;
+            enemyName = "Enemy"+ name;
+            enemies = GameObject.FindGameObjectsWithTag(enemyName);
+        }
+        catch (System.Exception) {  }
     }
 }

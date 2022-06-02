@@ -35,7 +35,7 @@ public class AutoMove : MonoBehaviour
         if (other.tag == "Rute") {
                 target = other.gameObject.GetComponent<WayPoint>().nextPoint;
                 enemies = other.gameObject.GetComponent<WayPoint>().enemies;	
-                nameEnemies = other.gameObject.GetComponent<WayPoint>().enemieName;
+                nameEnemies = other.gameObject.GetComponent<WayPoint>().enemyName;
                 //si recibe por la variable nameEnemies == "EnemyFin" pues llabmas al fianl y listo
                 if(nameEnemies.Equals("EnemyFin")) {
                     navMeshAgent.isStopped = true;// es irrelevante esta linea pero no esta demas.
@@ -43,7 +43,6 @@ public class AutoMove : MonoBehaviour
                     Debug.Log("Fin llego al final ");
                 }
                 navMeshAgent.isStopped = true;
-
             }
         }
 
