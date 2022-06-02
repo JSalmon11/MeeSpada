@@ -4,7 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemie
+  - Rute
+  - Enemy1
+  - Enemy2
   layers:
   - Default
   - TransparentFX
