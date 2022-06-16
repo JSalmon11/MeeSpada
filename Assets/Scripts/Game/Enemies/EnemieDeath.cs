@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class EnemieDeath : StateMachineBehaviour
 {
@@ -19,6 +20,8 @@ public class EnemieDeath : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+        string points = GameObject.Find("Points").GetComponent<UnityEngine.UI.Text>().text;
+        GameObject.Find("Points").GetComponent<UnityEngine.UI.Text>().text = "Puntuación: " + (Int32.Parse(points.Split(' ')[1]) + 10);
         Destroy(animator.gameObject);
     }
 

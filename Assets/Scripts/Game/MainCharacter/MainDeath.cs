@@ -20,6 +20,7 @@ public class MainDeath : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+        PlayerPrefs.SetString("Points", GameObject.Find("Points").GetComponent<UnityEngine.UI.Text>().text);
         SceneManager.LoadScene("GameOver");
     }
 
