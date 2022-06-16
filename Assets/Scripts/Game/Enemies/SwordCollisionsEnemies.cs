@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class SwordCollisionsEnemies : MonoBehaviour
 {
@@ -39,14 +40,22 @@ public class SwordCollisionsEnemies : MonoBehaviour
         public void killing(){
         if(GameObject.Find("Live1")){
             Destroy(GameObject.Find("Live1"));
+            restarPuntos(1);
         }else if(GameObject.Find("Live2")){
             Destroy(GameObject.Find("Live2"));
+            restarPuntos(1);
         }else if(GameObject.Find("Live3")){
             GameObject ob1 = GameObject.Find("MainCharacter");
             Animator anim = ob1.GetComponent<Animator>();
             anim.SetBool("Death",true);
             Destroy(GameObject.Find("Live3"));
+            restarPuntos(1);
         }
+    }
+
+    private void restarPuntos(int resta){
+        string points = GameObject.Find("Points").GetComponent<UnityEngine.UI.Text>().text;
+        GameObject.Find("Points").GetComponent<UnityEngine.UI.Text>().text = "Puntuación: " + (Int32.Parse(points.Split(' ')[1]) - resta);
     }
 
 }

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class AutoMove : MonoBehaviour
 {
@@ -24,7 +25,7 @@ public class AutoMove : MonoBehaviour
             if(enemies.Length == 0){
             navMeshAgent.isStopped = false;
             navMeshAgent.SetDestination(target.position);
-            //"Gupo eliminado avanzo al suiguiente punto"
+            //Gupo eliminado avanzo al suiguiente punto
             }else{
                 enemies = GameObject.FindGameObjectsWithTag(nameEnemies);
             }
@@ -36,11 +37,12 @@ public class AutoMove : MonoBehaviour
                 target = other.gameObject.GetComponent<WayPoint>().nextPoint;
                 enemies = other.gameObject.GetComponent<WayPoint>().enemies;	
                 nameEnemies = other.gameObject.GetComponent<WayPoint>().enemyName;
-                //si recibe por la variable nameEnemies == "EnemyFin" pues llabmas al fianl y listo
+                //si recibe por la variable nameEnemies == "EnemyFin" pues llamas al final y listo
                 if(nameEnemies.Equals("EnemyFin")) {
                     navMeshAgent.isStopped = true;// es irrelevante esta linea pero no esta demas.
                     //llamar aqui a la pantall fin.
-                    Debug.Log("Fin llego al final ");
+                    PlayerPrefs.SetString("Points", GameObject.Find("Points").GetComponent<UnityEngine.UI.Text>().text);
+                    SceneManager.LoadScene(GameObject.Find("NextLevel").GetComponent<UnityEngine.UI.Text>().text);
                 }
                 navMeshAgent.isStopped = true;
             }
