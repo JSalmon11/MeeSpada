@@ -47,11 +47,19 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Game\Enemies\SwordCollisionsEnemies.cs" />
+     <Compile Include="Assets\Scripts\Game\MainCharacter\AutoMove.cs" />
+     <Compile Include="Assets\Scripts\Menus\LoadCountries.cs" />
      <Compile Include="Assets\Scripts\Menus\SceneChanger.cs" />
+     <Compile Include="Assets\Scripts\Game\WayPoint.cs" />
+     <Compile Include="Assets\Scripts\Menus\SendPoints.cs" />
      <Compile Include="Assets\Scripts\Game\MainCharacter\FeetCharacter.cs" />
      <Compile Include="Assets\Scripts\Game\Enemies\EnemieMoves.cs" />
-     <Compile Include="Assets\Scripts\Game\SwordCollisions.cs" />
+     <Compile Include="Assets\Scripts\Game\Enemies\EnemieDeath.cs" />
+     <Compile Include="Assets\Scripts\Game\MainCharacter\SwordCollisionsMainCh.cs" />
      <Compile Include="Assets\Scripts\Game\MainCharacter\Character.cs" />
+     <Compile Include="Assets\Scripts\Game\MainCharacter\MainDeath.cs" />
+     <Compile Include="Assets\Scripts\Menus\CargarPuntuacion.cs" />
  <Reference Include="UnityEngine">
  <HintPath>E:/Unity/Versions/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
